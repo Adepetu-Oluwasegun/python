@@ -1,5 +1,5 @@
 #CREATE LOOP
-#while loop
+#while loop is a structure in python which allow us to loop through and execute a block of code multiple times
 x=0
 while (x<5):
   print(x)
@@ -18,3 +18,11 @@ for d in days:
 for d in days:
   if (d=="thurs"):continue
   print(d)
+
+  i = 1
+  while i <= 10:
+    print(i)
+    #i = i + 1
+    i += 1 # shorthand
+
+  print("Done with loop")
