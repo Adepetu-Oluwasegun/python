@@ -3,7 +3,7 @@ friends = ["Rajeesh koothrapali", "Ogbono Merchant", "poseidon", "Richmonk", "Ba
 
 print(friends) 
 
-# if i want to access a specific element in my friend list i cwill just use index
+# if i want to access a specific element in my friend list i will just use index
 print(friends[0])
 print(friends[1])
 print(friends[2])
