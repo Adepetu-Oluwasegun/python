@@ -1,7 +1,14 @@
 # # variable assign data to a variable they can hold different values, they are case sensitive and don't start with numbers.
 red_bucket = "kevin"
+name = "yousef el neysiri"
+age = "36"
+club = "fenerbache"
+contract = "3 years"
 print(red_bucket)
-
+print(name)
+print(age)
+print(club)
+print(contract)
 # # request input and assign it to a variable
 red_bucket = input("what do you what to put in the bucket? ")
 
