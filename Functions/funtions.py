@@ -18,7 +18,7 @@ def print_kiddo(text):
 
 print_kiddo("kiddo is a trouble maker")
 
-# usinf a If statement in betweeen a function
+# using a If statement in betweeen a function
 def school_age_calculator(age,name):
   if age < 5:
     print("Enjoy the time!", name, "is only", age,)
