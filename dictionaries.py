@@ -2,7 +2,7 @@
 
 # creating a program which allow us to convert a month name to a 3 letter name
 
-monthConvertions = {
+monthConversions = {
   #keys   values
   "Jan": "January",
   "Feb": "February",
@@ -18,5 +18,25 @@ monthConvertions = {
   "Dec": "December",
 }
 
-print(monthConvertions["Nov"])
-print(monthConvertions.get("Dec"))
+print(monthConversions["Jan"])
+print(monthConversions.get("Feb"))
+print(monthConversions.get("Mar"))
+print(monthConversions.get("Apr"))
+print(monthConversions.get("May"))
+print(monthConversions.get("Jun"))
+print(monthConversions.get("Jul"))
+print(monthConversions.get("Aug"))
+print(monthConversions.get("Sep"))
+print(monthConversions.get("Oct"))
+print(monthConversions.get("Nov"))
+print(monthConversions.get("Dec"))
+
+weekConversions = {
+  "Sun": "Sunday",
+  "Mon": "Monday",
+  "Tue": "Tuesday",
+  "Wed": "Wednesday",
+  "Thu": "Thursday",
+  "Fri": "Friday",
+  "Sat": "Saturday"
+}
