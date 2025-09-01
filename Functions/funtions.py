@@ -35,3 +35,14 @@ def add_ten_to_age(age):
 
 How_Old_Will_I_Be = add_ten_to_age(3)
 print(How_Old_Will_I_Be)
+
+# exponent function
+def raise_to_power(base_num, pow_num):
+  result = 1
+  for index in range(pow_num):
+    result = result * base_num
+  return result
+
+print(raise_to_power(2,3))
+print(raise_to_power(3,3))
+print(raise_to_power(4,2))
