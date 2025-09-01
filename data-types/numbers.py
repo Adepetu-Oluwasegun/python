@@ -31,3 +31,13 @@ my_num = -7
 print(floor (3.7))
 print(ceil(3.7))
 print(sqrt(36))
+
+try:  #try and except block helps handlle errors and do thing when they occur instead of throwing an error
+  value = 10/0
+  nomber = int(input("Enter a nomber: "))
+  print(nomber)
+except ZeroDivisionError as err: #best practice is to use it to capture specify errors 
+  print("Divided by zero")
+  print(err)
+except ValueError:
+  print("Invalid input")
