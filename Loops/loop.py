@@ -26,3 +26,13 @@ for d in days:
     i += 1 # shorthand
 
   print("Done with loop")
+
+for letter in "kiddominant": # looping through each letter in the word
+    print (letter)
+
+acquaintances = ["jola", "folu", "titi", "tope"] 
+for acquaintance in acquaintances:
+  print(acquaintance)
+
+for index in range(10):
+  print(index)
