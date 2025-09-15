@@ -3,3 +3,4 @@ lebron - power forward
 zubac - center
 trae - point guard 
 derozan - jump shooter
+derozan - jump shooter
