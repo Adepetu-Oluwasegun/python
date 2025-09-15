@@ -40,3 +40,9 @@ weekConversions = {
   "Fri": "Friday",
   "Sat": "Saturday"
 }
+
+animeGenres = {
+  "shonen": "jujutsu kaisen",
+  "Slice of life": "the dangers in my heart",
+  "comedy": "Grand blue",
+}
