@@ -14,7 +14,7 @@ questions = [
   Question(question_prompts[2], "b")
 ]
 
-# define a variable to llop through questions and answers and also add the total score at the end
+# define a variable to loop through questions and answers and also add the total score at the end
 def run_test(questions):
   score = 0
   for question in questions:
