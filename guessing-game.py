@@ -18,6 +18,7 @@ if out_of_guesses:
 else:
     print ("you win!")
 
+# guess a random number between 1 to 20
 import random 
 
 random_number = random.randint (1, 20)
@@ -42,6 +43,8 @@ sentence = input("input a sentence: ")
 words = sentence.split()
 print(len(words))
 
+
+# even and odd number checker
 new_number = int(input("Enter a number: "))
 
 if new_number % 2 == 0:
@@ -69,3 +72,53 @@ total = 0
 for digit in g:
   total = total + int(digit)
   print("The sum of digit is " + str(total))
+
+# reverse a string
+
+word = input("Enter a word")
+reverse_string = word[::-1]
+print(reverse_string)
+
+# palindrome checker for word
+word = input("Enter a word: ")
+reverse_word = word [::-1]
+
+if word == reverse_word:
+  print(f"{word} is a palindrome")
+else:
+  print(f"{word} is not a palindrome")
+  
+  # palindrome checker for nom
+nom = input("Enter a number: ")
+reverse_nom = nom[::-1]
+
+if nom == reverse_nom:
+  print(f"{nom} is a palindrome")
+else:
+  print(f"{nom} is not a palindrome")
+
+
+# prime number checker
+p = int(input("Enter a number: "))
+
+if p <= 1:
+  print("Not a prime number")
+else:
+  for i in range(2, int(p ** 0.5)+ 1):
+    if p % i == 0:
+      print("Not a prime number")
+      break
+  else:
+    print("Prime number")
+
+# prime numbers between 2 and 100
+for num in range(2, 101):
+  is_prime = True
+  for i in range(2, int(num ** 0.5)+ 1):
+    if num % i == 0:
+      is_prime = False
+      break
+    if is_prime:
+      print(num)
+
+
